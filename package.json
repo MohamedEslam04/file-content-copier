@@ -2,7 +2,7 @@
   "name": "files-content-copier",
   "displayName": "Files Content Copier",
   "description": "Copy all file contents with relative paths",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "publisher": "MohamedEslam",
   "engines": {
     "vscode": "^1.60.0"
