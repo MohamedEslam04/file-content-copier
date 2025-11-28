@@ -2,7 +2,7 @@
   "name": "files-content-copier",
   "displayName": "Files Content Copier",
   "description": "Copy all file contents with relative paths",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "MohamedEslam",
   "engines": {
     "vscode": "^1.60.0"
@@ -14,25 +14,27 @@
     "type": "git",
     "url": "git+https://github.com/MohamedEslam04/file-content-copier.git"
   },
+  "categories": [
+    "Other"
+  ],
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
         "command": "fileCopier.copyAllFiles",
-        "title": "Copy All File Contents"
+        "title": "File Copier: Copy All Files in Workspace"
       },
       {
-        "command": "fileCopier.copyFolderFiles",
-        "title": "Copy Folder Contents"
+        "command": "fileCopier.copySelectedFiles",
+        "title": "File Copier: Copy Selected Files"
       }
     ],
     "menus": {
       "explorer/context": [
         {
-          "command": "fileCopier.copyFolderFiles",
-          "when": "explorerResourceIsFolder",
-          "group": "navigation@100"
+          "command": "fileCopier.copySelectedFiles",
+          "group": "2_workspace@1"
         }
       ]
     }
