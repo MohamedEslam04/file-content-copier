@@ -1,9 +1,35 @@
-# Copy Files With Content
+# File Content Copier
 
-This extension copies the content of multiple selected files and includes:
+Copy file contents with relative paths to clipboard.
 
-- The file's relative path
-- A separator
-- The file content
+## Features
 
-It also automatically copies everything to the clipboard.
+- **Multiple Selection**: Select multiple files/folders with Ctrl/Cmd+Click
+- **Range Selection**: Select range with Shift+Click
+- **Right-Click Menu**: Available in Explorer context menu
+- **Command Palette**: Access via Ctrl+Shift+P
+
+## Usage
+
+### From Explorer:
+1. Select one or multiple files/folders in Explorer
+2. Right-click → "File Copier: Copy Selected Files"
+
+### From Command Palette:
+- `Ctrl+Shift+P` → "File Copier: Copy All Files in Workspace"
+
+## Output Format
+
+```
+File: path/to/file1.ts
+
+[file content]
+
+================================================================================
+
+File: path/to/file2.ts
+
+[file content]
+
+================================================================================
+```
