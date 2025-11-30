@@ -2,7 +2,7 @@
 
 Effortlessly copy the contents of multiple files and folders in your workspace to the clipboard, including their relative paths.
 
-![Demo](https://github.com/MohamedEslam04/file-content-copier/blob/main/public/demo.gif)
+![Demo](https://raw.githubusercontent.com/MohamedEslam04/file-content-copier/main/public/demo.gif)
 
 ---
 
